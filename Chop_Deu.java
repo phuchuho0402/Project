@@ -12,7 +12,7 @@ import javax.swing.JTextField;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 
-public class Chop_Deu extends JFrame {
+public class HinhChopDeu extends JFrame {
 
 	private JPanel contentPane;
 	
