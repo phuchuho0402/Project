@@ -26,25 +26,25 @@ public class GUI_ADP extends JFrame {
 	 * Launch the application.
 	 */
 	//function nay la khi khoi tao se chay GUI
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					GUI_ADP frame = new GUI_ADP();
-					frame.setLocationRelativeTo(null);
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
+// 	public static void main(String[] args) {
+// 		EventQueue.invokeLater(new Runnable() {
+// 			public void run() {
+// 				try {
+// 					GUI_ADP frame = new GUI_ADP();
+// 					frame.setLocationRelativeTo(null);
+// 					frame.setVisible(true);
+// 				} catch (Exception e) {
+// 					e.printStackTrace();
+// 				}
+// 			}
+// 		});
+// 	}
 
 	/**
 	 * Create the frame.
 	 */
 	//Thiet lap khoi tao GUI
-	public GUI_ADP() {
+	public HinhChopDeu() {
 		setTitle("Dien tich xung quanh hinh chop deu");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
